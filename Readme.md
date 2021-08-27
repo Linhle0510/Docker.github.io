@@ -64,7 +64,7 @@ COPY ${JAR_FILE} app.jar
 ```
 - Start container
 ```
-CMD ["java", "-Djava.security.egd=file:/dev/./urandom ", "-jar", "/app.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom ", "-jar", "app.jar"]
 ``` 
 2. Build và run image
 - Build image
