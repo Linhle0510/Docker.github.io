@@ -56,7 +56,7 @@ docker run -d --name spring-app-1 -p 9001:8080 spring-app:v1
 ```
 FROM openjdk:8-alpine
 ```
-- Copy file websocket-demo-0.0.1-SNAPSHOT.jar vào docker image
+- Copy file websocket-demo-0.0.1-SNAPSHOT.jar vào docker imag
 ```
  ARG JAR_FILE=target/*.jar
 
